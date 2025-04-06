@@ -1,17 +1,15 @@
-/* App.css */
 
-/* Container for the Gantt chart */
 .gantt-container {
-  height: 600px; /* Set the height of your Gantt chart */
-  margin: 20px; /* Add some margin around the chart */
-  border: 1px solid #ccc; /* Optional: Add a border to visually separate it */
+  height: 600px; 
+  margin: 20px;
+  border: 1px solid #ccc; 
 }
 
-/* Styling the header (optional) */
+
 h1 {
-  text-align: center; /* Center the header */
-  color: #333; /* Dark text color */
-  margin-top: 20px; /* Margin above the header */
+  text-align: center; 
+  color: #333; 
+  margin-top: 20px; 
 }
 
-/* You can add more styles as needed */
+
