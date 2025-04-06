@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Gantt } from './bryntum-gantt-trial/build/gantt.module.js';
 import './bryntum-gantt-trial/build/gantt.stockholm.css';
 
-let idCounter = 4; // Unique counter for task IDs, assuming initial tasks use IDs 1-3
+let idCounter = 4; 
 
 const App = () => {
     const ganttRef = useRef(null);
@@ -35,7 +35,7 @@ const App = () => {
 
     const addTask = () => {
         const newTask = {
-            id: idCounter++, // Ensure unique ID for the main task
+            id: idCounter++, 
             name: `Order ${idCounter}`,
             startDate: '2023-11-10',
             duration: 5,
@@ -70,7 +70,8 @@ const App = () => {
     useEffect(() => {
         const resizeObserver = new ResizeObserver(
             debounce(() => {
-                // Optional: Add specific resize logic here if needed
+               
+                
             }, 100)
         );
 
